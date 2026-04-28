@@ -114,4 +114,16 @@ while True:
             print("Senha errada. Tente novamente.")
     else:
         print("Nome ou senha incorretos. Tente novamente.")
-        
+####################################################################
+for i in range(3):
+    nome = input("Digite seu nome: ").strip().lower()
+    if nome == "luiz":
+        senha = input("Digite sua senha: ").strip()
+        if senha == "1234":
+            print("Acesso permitido!")
+            break
+        else:
+            print("Senha incorreta. Tente novamente.")
+print("Número máximo de tentativas atingido. Acesso negado.")     
+exit()
+
