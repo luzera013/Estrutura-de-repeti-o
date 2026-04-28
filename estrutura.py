@@ -101,4 +101,17 @@ while True:
         break
     else:
         print("Negado!")
+############################################################################
 
+while True:
+    nome = input("Digite seu nome: ").strip().lower()
+    if nome == 'luiz':
+        senha = input("Digite sua senha: ")
+        if senha == '123':
+            print("Acesso concedido! Seja bem-vindo", nome)
+            break
+        else:
+            print("Senha errada. Tente novamente.")
+    else:
+        print("Nome ou senha incorretos. Tente novamente.")
+        
